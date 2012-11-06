@@ -1,3 +1,5 @@
 function testConsoleLog() {
-	console.log("Hello world");
+	if(console.log) {
+		console.log("Hello world");
+	}
 }
